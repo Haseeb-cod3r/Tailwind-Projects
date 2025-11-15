@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant large {
+  @media (max-width: 1000px) {
+    @slot;
+  }
+}
+@custom-variant cus1 {
+  @media (max-width: 770px) {
+    @slot;
+  }
+}
+@custom-variant medium {
+  @media (max-width: 730px) {
+    @slot !important;
+  }
+}
