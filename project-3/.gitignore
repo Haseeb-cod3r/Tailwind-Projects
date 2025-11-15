@@ -1,15 +1,58 @@
-# Avoid accidental upload of the Sketch and Figma design files
-#####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
-#####################################################
+#--------------------------------------------
+# OS FILES
+#--------------------------------------------
+.DS_Store
+Thumbs.db
+
+#--------------------------------------------
+# IDE / EDITOR FILES
+#--------------------------------------------
+.vscode/
+.idea/
+
+#--------------------------------------------
+# NODE & BUILD FILES (if using Tailwind CLI)
+#--------------------------------------------
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Tailwind build output
+output.css
+output.css.map
+
+# Temp build or dist folders (if any)
+dist/
+build/
+
+#--------------------------------------------
+# LOGS
+#--------------------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#--------------------------------------------
+# ENV FILES
+#--------------------------------------------
+.env
+.env.local
+.env.development
+.env.production
+
+#--------------------------------------------
+# DESIGN FILES (from your original)
+#--------------------------------------------
 *.sketch
 *.fig
-
-# Avoid accidental XD upload if you convert the design file
-###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
-###############################################
 *.xd
 
-# Avoid your project being littered with annoying .DS_Store files!
-.DS_Store
+#--------------------------------------------
+# MISC
+#--------------------------------------------
+*.bak
+*.tmp
+*.swp
+*.swo
